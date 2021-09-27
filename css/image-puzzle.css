@@ -1,0 +1,106 @@
+body{
+    background-color: gray;
+    background-image: url("../background-images/bg_image_4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   }
+
+#image-collage hr{
+                    border:rgb(238, 232, 224);
+                    border-top:4px solid #f5f2f2;
+                    height:2px;
+                   }
+
+
+#image-collage #gamePanel {
+                        background-image: url("../background-images/bg_image_8.jpg");
+                        background-position: center center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-color:#4e4e4e;
+                        padding:10px 0px;
+                        margin: 10px auto;
+                        max-width:800px;
+                        width:95%;
+                   }
+                               
+                   
+#image-collage #actualImageBox {
+                        color: whitesmoke;
+                        display: inline-block;
+                        font-size:0.9em;
+                        margin: 10px 10px;
+                        vertical-align: top;
+                        width:280px;
+                    }
+
+
+#image-collage #stepBox, #collage #timeBox {
+                        display:inline-block;
+                        width:48%;
+                    }
+                    
+#image-collage #stepBox div {
+                        color:whitesmoke;
+                        display:inline-block;
+                        padding:1px 4px;
+                        margin: 0px auto;
+                        max-width:800px;
+                    }
+ 
+                    
+
+#image-collage img#actualImage{
+                        border:3px solid rgb(73, 204, 176);
+                        height:280px;
+                        width:280px;
+                    }
+                    
+#image-collage #sortable {
+                        border:3px solid  rgb(73, 204, 176);
+                        list-style-type: none;
+                        display: inline-block;
+                        margin: 10px;
+                        padding: 0;
+                        width: 400px;
+                    }
+                    
+#image-collage #sortable li {
+                        background-size: 400% 400%;
+                        border: none;
+                        cursor: pointer;
+                        margin: 0;
+                        padding: 0;
+                        float: left;
+                        width: 100px;
+                        height: 100px;
+                        }
+                    
+#image-collage button  {
+                    color: whitesmoke;
+                    background-color:#242222;
+                    border:1px solid  rgb(73, 204, 176);
+                    display: inline;
+                    font-size: 14px;
+                    padding: 3px 8px;
+                }                       
+#image-collage #gameOver{
+                    background-image:url("../background-images/bg_image_8.png");
+                    background-position: center center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-color: #fc9e9e;
+                    position: absolute;
+                    display:inline-block;
+                    padding: 5px 10px 20px 10px; 
+                    text-align: center;
+
+}
+
+#image-collage #gameOver h2{
+                         text-align:center ;
+                         color:white;
+                        }
+
