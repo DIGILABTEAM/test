@@ -1,0 +1,233 @@
+body {
+	color: #CCC;
+	background-color: #CCC;
+}
+
+#alblage {
+	width: 410px;
+	height: 310px;
+}
+
+#toDrop1 {
+	height: 100px;
+	width: 100px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	padding: 1px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #FFC;
+}
+
+#toDrop2 {
+	height: 100px;
+	width: 100px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	padding: 1px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #FFC;
+}
+
+#toDrop3 {
+	height: 100px;
+	width: 100px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	padding: 1px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #FFC;
+}
+
+#toDrop4 {
+	height: 100px;
+	width: 100px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	padding: 1px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #FFC;
+}
+
+#toDrop5 {
+	height: 100px;
+	width: 100px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	padding: 1px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #FFC;
+}
+
+#toDrop6 {
+	height: 100px;
+	width: 100px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	padding: 1px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #FFC;
+}
+
+#toDrop7 {
+	height: 100px;
+	width: 100px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	padding: 1px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #FFC;
+}
+
+#toDrop8 {
+	height: 100px;
+	width: 100px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	padding: 1px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #FFC;
+}
+
+#toDrop9 {
+	height: 100px;
+	width: 100px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	padding: 1px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #FFC;
+}
+
+#toDrop10 {
+	height: 100px;
+	width: 100px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	padding: 1px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #FFC;
+}
+
+#toDrop11 {
+	height: 100px;
+	width: 100px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	padding: 1px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #FFC;
+}
+
+#toDrop12 {
+	height: 100px;
+	width: 100px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	padding: 1px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-color: #FFC;
+}
+
+.clearfloat {
+	float: none;
+}
+
+#container #solve {
+	font-size: 18px;
+	font-weight: bold;
+	color: #F00;
+	font-family: "Lucida Console", Monaco, monospace;
+	padding: 10px;
+	float: left;
+}
+
+#container #play {
+	font-size: 18px;
+	font-weight: bold;
+	color: #F00;
+	font-family: "Lucida Console", Monaco, monospace;
+	padding: 10px;
+	float: right;
+}
+
+#container {
+	width: 430px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.clearfloat {
+	float: none;
+}

@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+  	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="style.css">
+	<script src="puzzle.js"></script>
+	<title>DragandDropPuzzle</title>
+</head>
+
+<body>
+
+<div id="container">
+	<!-- Dragezone -->
+	<div id="alblage">
+		<div id="toDrop1"></div>
+		<div id="toDrop2"></div>
+		<div id="toDrop3"></div>
+		<div id="toDrop4" class="clearfloat" ></div>
+
+		<div id="toDrop5"></div>
+		<div id="toDrop6"></div>
+		<div id="toDrop7"></div>
+		<div id="toDrop8" class="clearfloat"></div>
+
+		<div id="toDrop9"></div>
+		<div id="toDrop10"></div>
+		<div id="toDrop11"></div>
+		<div id="toDrop12"></div>
+		<br class="clearfloat"/>
+		<div id="solve"><a href="javascript:solvePuzzle()">LÖSEN</a></div>
+		<div id="play"><a href="draggable_image_puzzle-PLAY.html">SPIELEN</a></div>
+	</div>
+</div>
+
+<script type="text/javascript">
+var dragElement;
+
+var element1; 
+var element2;
+var html1=[];
+var html2=[];
+
+var pics=[null, "p01.png", "p02.png" ,"p03.png","p04.png","p05.png","p06.png","p07.png","p08.png","p09.png","p10.png","p11.png","p12.png"];
+var picID=[null, "toDrag1", "toDrag2", "toDrag3", "toDrag4", "toDrag5", "toDrag6", "toDrag7", "toDrag8", "toDrag9", "toDrag10", "toDrag11", "toDrag12"];
+var placeID=[null, "toDrop1", "toDrop2", "toDrop3", "toDrop4", "toDrop5", "toDrop6", "toDrop7", "toDrop8", "toDrop9", "toDrop10", "toDrop11", "toDrop12"];
+var oldChild=[];
+var newChild=[];
+
+function solvePuzzle() {
+	window.location.reload();	
+	}
+
+
+function clearNodes() {
+	for (var i=1; i<=12; i++) {
+		//document.getElementById(picID[i]).parent.removeChild(picID[i]);
+		//document.getElementById(picID[i]).removeChild(picID[i]);
+	}
+	alert(document.getElementById("container").innerHTML);
+}
+
+function init() {
+	//removeAllChildren();
+	var element;
+	for (var j=1;j<=12;j++) {
+		element="toDrop"+j;
+		
+		var newNode = document.createElement('img');
+		newNode.setAttribute('src', "Pics/"+pics[j]);
+		newNode.setAttribute('ID', "toDrag"+j);
+		newNode.setAttribute('name', "toDrag"+j);
+		newNode.setAttribute('ondrop', "drop(event)");
+		newNode.setAttribute('ondragover', "allowDrop(event)");
+		newNode.setAttribute('ondrop', "drop(event)");
+		newNode.setAttribute('ondragover',"allowDrop(event)");
+		newNode.setAttribute('ondragstart',"drag(event)");
+
+		document.getElementById(placeID[j]).appendChild(newNode);
+		html1[j]=document.getElementById(placeID[j]).innerHTML;
+	}
+	//alert(document.getElementById("container").innerHTML);
+}
+
+function drag(ev) {
+	//define toDrag
+	ev.dataTransfer.setData("Text", ev.target.id);
+}
+
+function allowDrop(ev) {
+	//prevent normal behaver
+	ev.preventDefault();
+	ev.dtataTransfer.dropEffekt="move";
+}
+
+function drop(ev) {
+	//placing object
+	//alert(ev.srcElement.innerHTML);
+	ev.preventDefault();
+	
+	p2=ev.target.id;
+	//alert("ev.target.name="+ev.target.name);
+	//pic2=document.images[p2].src;
+	pic2=document.getElementById(p2).src;
+	
+	data=ev.dataTransfer.getData("Text");  // "toDrop"
+	p1=data;
+	//get pic from id
+	pic1=document.getElementById(p1).src;
+
+	//alert("pic1/pic2=<br>"+pic1+"<br>"+pic2);
+	
+	//Swap
+	document.images[p2].src=pic1;
+	document.Picsimages[p1].src=pic2;
+}
+
+init();		
+</script>
+
+
+
+</body>
+</html>
