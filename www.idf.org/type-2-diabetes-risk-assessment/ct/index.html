@@ -1,0 +1,777 @@
+
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en-GB"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en-GB"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en-GB"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en-GB"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en-GB"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+
+<!-- Mirrored from www.idf.org/type-2-diabetes-risk-assessment/ct/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Nov 2021 10:05:18 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head id="www-sitename-com" data-template-set="html5-reset-wordpress-theme">
+
+	<meta charset="UTF-8">
+
+	<!-- Always force latest IE rendering engine (even in intranet) -->
+	<!--[if IE ]>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"92bccc73c9",applicationID:"33800654"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[u.now()].concat(f(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(8),f=t(9),c=t("ee").get("tracer"),u=t("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){s[e]=i(p+e,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){function r(){return f.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,f=t(10);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],4:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],5:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof m&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),g=!0,d("timing",["fi",e,n])}}function f(t){"hidden"===t&&d("pageHide",[p.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,u,s,d=t("handle"),p=t("loader"),l=t(7),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,h=["click","keydown","mousedown","pointerdown","touchstart"];h.forEach(function(t){document.addEventListener(t,a,!1)})}l(f)}},{}],6:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],7:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],8:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],9:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],10:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var f=e(i),c=v(n),u=c.length,s=0;s<u;s++)c[s].apply(f,r);var p=d[w[n]];return p&&p.push([b,n,r,f]),f}}function o(t,e){y[t]=v(t).concat(e)}function m(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function v(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:e,buffer:h,abort:f,aborted:!1};return b}function o(t){return u(t,c,a)}function a(){return new r}function f(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",u=t("gos"),s=t(8),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!R++){var t=M.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();f("mark",["onload",n+M.offset],null,"api"),f("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){f("mark",["domContent",a()+M.offset],null,"api")}var a=t(3),f=t("handle"),c=t(8),u=t("ee"),s=t(6),d=t(4),p=t(2),l=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,g="addEventListener",h="attachEvent",y=m.XMLHttpRequest,w=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1211.min.js"},O=y&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(5),v[g]?(v[g]("DOMContentLoaded",o,!1),m[g]("load",r,!1)):(v[h]("onreadystatechange",i),m[h]("onload",r)),f("mark",["firstbyte",a.getLastTimestamp()],null,"api");var R=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,c],s],t)}f(n+"start",[o,a,c],s,u);try{return p=e.apply(a,o)}catch(m){throw f(n+"err",[o,a,m],s,u),m}finally{f(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var f,c,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)c=e[u],f=t[c],a(f)||(t[c]=n(f,s?c+r:r,i,c,o))}function f(n,r,o,a){if(!m||e){var f=m;m=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}m=f}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function f(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function c(t,e,n){var r=t[e];t[e]=f(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(9),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;e.exports=r,e.exports.wrapFunction=f,e.exports.wrapInPlace=c,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+	<![endif]-->
+
+	
+	<title>Test2Prevent (CT) | Test2Prevent - Know your risk of type 2 diabetes</title>
+
+	<meta name="title" content="Test2Prevent (CT) | Test2Prevent - Know your risk of type 2 diabetes">
+
+	<!--Google will often use this as its description of your page/site. Make it good.-->
+	<meta name="description" content="Try our risk assessment tool" />
+
+	
+	<meta name="Copyright" content="Copyright &copy; Test2Prevent &#8211; Know your risk of type 2 diabetes 2021. All Rights Reserved.">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 minimal-ui" />
+	<!-- concatenate and minify for production -->
+	<link rel="stylesheet" href="../blipire/wp-content/themes/risk-assessment/reset.min.css" />
+	<link rel="stylesheet" href="../blipire/wp-content/themes/risk-assessment/style.css" />
+
+	<!-- Lea Verou's Prefix Free, lets you use only un-prefixed properties in yuor CSS files -->
+    <script src="../blipire/wp-content/themes/risk-assessment/_/js/prefixfree.min.js"></script>
+
+	<!-- This is an un-minified, complete version of Modernizr.
+		 Before you move to production, you should generate a custom build that only has the detects you need. -->
+	<script src="../blipire/wp-content/themes/risk-assessment/_/js/modernizr.min.js"></script>
+
+	<!-- Application-specific meta tags -->
+	
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="../blipire/xmlrpc.php" />
+
+	<link rel='dns-prefetch' href='http://ajax.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="Test2Prevent - Know your risk of type 2 diabetes &raquo; Feed" href="../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Test2Prevent - Know your risk of type 2 diabetes &raquo; Comments Feed" href="../comments/feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Test2Prevent - Know your risk of type 2 diabetes &raquo; Test2Prevent (CT) Comments Feed" href="feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.idf.org\/type-2-diabetes-risk-assessment\/blipire\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6.5"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='../blipire/wp-includes/css/dist/block-library/style.min9d3a.css?ver=5.6.5' type='text/css' media='all' />
+<script type='text/javascript' src='../../../ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min9d3a.js?ver=5.6.5' id='jquery-js'></script>
+<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/324.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../blipire/xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../blipire/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.6.5" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='../indexf47a.html?p=324' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embeddcc9.json?url=https%3A%2F%2Fwww.idf.org%2Ftype-2-diabetes-risk-assessment%2Fct%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embedcea4?url=https%3A%2F%2Fwww.idf.org%2Ftype-2-diabetes-risk-assessment%2Fct%2F&amp;format=xml" />
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+</head>
+
+<body class="page-template page-template-templates page-template-quiz-page page-template-templatesquiz-page-php page page-id-324">
+
+	<div id="wrapper">
+
+		<!-- Begin standard navigation menus
+		<nav id="nav" role="navigation">
+		<ul class="mainmenu">
+					</ul><!-- .main-menu 
+		</nav>-->
+				
+		<!-- Begin mobile navigation menus
+		<div class="accordion-menu-wrap mobile-only">
+		<nav>	
+		<ul class="accordion-menu" id="accordion-menu">
+			<li class="openmenu"><a>Site Menu</a>
+				<nav>
+								</nav>
+			</li>				
+		</ul>
+		</nav>	
+		</div><!-- .accordion-menu-wrap -->
+	
+<div class="fullcol clearfix">
+ <div class="midcol quiz-wrapper gorel blue clearfix">
+  <div class="logo-wrapper">
+   <!--<a href="https://www.idf.org/" target="_blank" rel="noopener noreferrer">-->
+   <img src='../blipire/wp-content/themes/risk-assessment/_/img/idf_lions_logos.png' alt='IDF and Lions Logos' title='IDF and Lions Logos' />   <!--</a>-->
+  </div>
+  <div class="quiz-heading">
+   <h1>預防測試</h1>
+   <h2>了解您患2型糖尿病的風險</h2>
+  </div>
+  <!--<div class="language-selector active">
+     </div>-->
+    
+  <!-- Start panel -->
+  <div id="question-1" class="fullcol question-panel start-panel blue active clearfix">
+      <div class="leftcol copycol clearfix"> 
+       
+<p>國際糖尿病聯合會 (IDF) 估計，多達<strong>2.12億人沒有確診</strong>，相當於目前所有成人糖尿病患者的一半。<strong>其中大多數人患有2型糖尿病</strong>。</p>
+
+
+
+<p>IDF 建立了一<strong>個線上糖尿病風險評估</strong>，旨在預測個人在未來十年內患 2 型糖尿病的風險。此測驗是根據由芬蘭赫爾辛基國家衛生和福利研究所兼職教授 Jaana Lindström 及 Jaakko Tuomilehto 教授所設計和開發的芬蘭糖尿病風險評分 (FINDRISC)。</p>
+
+
+
+<p>測驗只需幾分鐘即可完成，這是了解您患2型糖尿病之風險的一種快速、簡便和保密的方式</p>
+       <div id="quiznav-1" class="quiz-nav no-absolute">
+        <a class="button start-button next">現在開始</a>
+       </div>
+       <p>該測試還提供以下語言版本：</p>
+       <ul class="split-list alt">
+         <li><a href='../de/index.html'>Deutsch</a></li><li><a href='../it/index.html'>Italiano</a></li><li><a href='../jp/index.html'>日本語</a></li><li><a href='../index.html'>English</a></li><li><a href='../po/index.html'>Português</a></li><li><a href='../ko/index.html'>한국어</a></li><li><a href='../es/index.html'>Español</a></li><li><a href='../su/index.html'>Suomi</a></li><li><a href='../cs/index.html'>中文(简体)</a></li><li><a href='../fr/index.html'>Français</a></li><li><a href='../sv/index.html'>Svenska</a></li>       </ul>
+      </div>
+      <div class="rightcol">
+       <img src ='../blipire/wp-content/uploads/2019/08/quiz_start_ct.png' alt='' title='quiz_start_ct' />      </div>
+  </div>
+  
+  <!-- Question 1 panel -->
+  <div id="question-2" class="fullcol question-panel one clearfix">
+    <div class="leftcol clearfix">
+     <h3><span class="number">1</span> 年齡</h3>
+     <ul id="option-group-2" class="option-group">
+      <li class="progress-message">請選擇一個答案</li>
+      <li class="survey-option">
+       <label class="container">45 歲以下        <input id="question_1_1" type="radio" name="age" value="Under 45 years" data-score="0">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      <li class="survey-option">
+       <label class="container">45-54 歲        <input id="question_1_2" type="radio" name="age" value="45-54 years" data-score="2">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      <li class="survey-option">
+       <label class="container">55-64 歲        <input id="question_1_3" type="radio" name="age" value="55-64 years" data-score="3">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      <li class="survey-option">
+       <label class="container">64 歲以上        <input id="question_1_4" type="radio" name="age" value="Over 64 years" data-score="4">
+        <span class="checkmark"></span>
+       </label>
+      </li>  
+     </ul>
+     <span class="valwrap">Value: <span class="ageval"></span></span>
+    </div>
+    <div class="rightcol">
+     <img src="../blipire/wp-content/themes/risk-assessment/_/img/age_graphic.svg" alt="Age" title="Age" />
+    </div>    
+    <div id="quiznav-2" class="quiz-nav">
+      <a class="button first-prev prev">前一頁</a>
+      <span>問題  1 (共 8個問題）</span>
+      <a class="button next">下一頁</a>
+    </div>
+   </div>
+            
+   <!-- Question 2 panel -->
+   <div id="question-3" class="fullcol question-panel two clearfix">
+    <div class="leftcol clearfix">
+     <h3><span class="number">2</span> 身高體重指數</h3>
+     <h4>身高體重指數計算器</h4>
+     <div class="calculator-element">
+      <label for="height">身高 （公分）</label>
+      <input class="calc-field" id="height" name="height" autocomplete="off" min="1" max="500">
+      <label for="weight">體重 （公斤）</label>
+      <input class="calc-field" id="weight" name="weight" autocomplete="off" min="1" max="1000">
+      <div class="result-wrap">
+       <span class="bmi-result"></span>
+       <span class="select-result"></span>
+      </div>
+     </div>
+     <ul id="option-group-3" class="option-group halved">
+      <li><h4>我的身高體重指數：</h4></li>
+      <li class="progress-message">請選擇一個答案</li>
+      <li class="survey-option">
+       <label class="container">低於 25 公斤/平方公尺        <input id="question_2_1" type="radio" name="bmi" value="Lower than 25 kg/m2" data-score="0">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      <li class="survey-option">
+       <label class="container">25-30 公斤/平方公尺        <input id="question_2_2" type="radio" name="bmi" value="25–30 kg/m2" data-score="1">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      <li class="survey-option">
+       <label class="container">高於 30 公斤/平方公尺        <input id="question_2_3" type="radio" name="bmi" value="Higher than 30 kg/m2" data-score="3">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+     </ul>
+     <span class="valwrap">Value: <span class="bmival"></span></span>                   
+    </div>
+    <div class="rightcol">
+     <img src ='../blipire/wp-content/uploads/2019/08/bmi_graphic_ct.png' alt='' title='bmi_graphic_ct' />     <div class="explanation gorel clearfix">
+      <small>身高體重指數用於評估一個人的體重是否正常，指數的計算方法是將體重 (公斤) 除以身高(公尺)的平方。例如，如果您的身高是165公分，體重是70公斤，您的體重指數將是70/(1.65 x 1.65)，亦即 25.7。</small>
+     </div>
+    </div>
+    <div id="quiznav-3" class="quiz-nav">
+     <a class="button prev">前一頁</a>
+     <span>問題  2 (共 8個問題）</span>
+     <a class="button next">下一頁</a>
+    </div>     
+   </div>
+   
+   <!-- Question 3 panel -->
+   <div id="question-4" class="fullcol question-panel three clearfix">
+    <div class="leftcol clearfix">
+     <h3><span class="number">3</span> 腰圍<br /><span class="subhead">在肋骨下方測量<br />（通常在肚臍部位的高度）</span></h3>
+     <ul id="option-group-4" class="option-group">
+      <div class="halfcol">
+      <li><h4>男士</h4></li>
+      <li class="progress-message">請選擇一個答案</li>
+      <li class="survey-option">
+       <label class="container"><span class="half">小於 94 公分</span>
+        <input id="question_3_1" type="radio" name="waist" value="Less than 94 cm" data-score="0">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      <li class="survey-option">
+       <label class="container"><span class="half">94-102 公分</span>
+        <input id="question_3_2" type="radio" name="waist" value="94-102 cm" data-score="3">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      <li class="survey-option">
+       <label class="container"><span class="half">大於 102 公分</span>
+        <input id="question_3_3" type="radio" name="waist" value="More than 102 cm" data-score="4">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      </div>
+      <div class="halfcol">
+      <li><h4>女士</h4></li>
+      <li class="survey-option">
+       <label class="container"><span class="half">小於 80 公分</span>
+        <input id="question_3_4" type="radio" name="waist" value="Less than 80 cm" data-score="0">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      <li class="survey-option">
+       <label class="container"><span class="half">80-88 公分</span>
+        <input id="question_3_5" type="radio" name="waist" value="80-88 cm" data-score="3">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      <li class="survey-option">
+       <label class="container"><span class="half">大於 88 公分</span>
+        <input id="question_3_6" type="radio" name="waist" value="More than 88 cm" data-score="4">
+        <span class="checkmark"></span>
+       </label>
+      </li>       
+      </div>
+     </ul>    
+     <span class="valwrap">Value: <span class="waistval"></span></span>                    
+    </div>
+    <div class="rightcol">
+     <img src ='../blipire/wp-content/uploads/2019/08/waist_graphic_ct.png' alt='' title='waist_graphic_ct' />    </div>
+    <div id="quiznav-4" class="quiz-nav">
+     <a class="button prev">前一頁</a>
+     <span>問題  3 (共 8個問題）</span>
+     <a class="button next">下一頁</a>
+    </div>    
+   </div>
+            
+   <!-- Question 4 panel -->
+   <div id="question-5" class="fullcol question-panel four clearfix">
+    <div class="leftcol clearfix">
+     <h3><span class="number">4</span> 您是否經常在工作<br /> 和/或閒暇時間<br /> 進行至少30分鐘的<br /> 日常體力活動？<span class="subhead">（包括正常的日常活動）？</span></h3>
+     <ul id="option-group-5" class="option-group">
+      <li class="progress-message">請選擇一個答案</li>
+      <li class="survey-option">
+       <label class="container">是        <input id="question_4_1" type="radio" name="activity" value="Yes" data-score="0">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      <li class="survey-option">
+       <label class="container">否        <input id="question_4_2" type="radio" name="activity" value="No" data-score="2">
+        <span class="checkmark"></span>
+       </label>
+      </li>       
+     </ul>
+     <span class="valwrap">Value: <span class="activityval"></span></span>
+     <span id="fm-5" class="feedback-message"></span>                   
+    </div>
+    <div class="rightcol">
+     <img src="../blipire/wp-content/themes/risk-assessment/_/img/activity_graphic.svg" alt="Activity" title="Activity" />
+    </div>    
+    <div id="quiznav-5" class="quiz-nav">
+     <a class="button prev">前一頁</a>
+     <span>問題  4 (共 8個問題）</span>
+     <a class="button next">下一頁</a>
+    </div> 
+   </div>
+   
+   <!-- Question 5 panel -->
+   <div id="question-6" class="fullcol question-panel five clearfix">
+    <div class="leftcol clearfix">
+     <h3><span class="number">5</span>您多久吃一次蔬菜、水果或莓果？</h3>
+     <ul id="option-group-6" class="option-group">
+      <li class="progress-message">請選擇一個答案</li>
+      <li class="survey-option">
+       <label class="container">每天        <input id="question_5_1" type="radio" name="diet" value="Every day" data-score="0">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      <li class="survey-option">
+       <label class="container">不是每天        <input id="question_5_2" type="radio" name="diet" value="Not every day" data-score="1">
+        <span class="checkmark"></span>
+       </label>
+      </li>      
+     </ul>
+     <span class="valwrap">Value: <span class="dietval"></span></span>                   
+    </div>
+    <div class="rightcol">
+     <img src="../blipire/wp-content/themes/risk-assessment/_/img/diet_graphic.svg" alt="Fruit and vegetables" title="Diet" />
+    </div>
+    <div id="quiznav-6" class="quiz-nav">
+     <a class="button prev">前一頁</a>
+     <span>問題  5 (共 8個問題）</span>
+     <a class="button next">下一頁</a>
+    </div>     
+   </div>
+            
+   <!-- Question 6 panel -->
+   <div id="question-7" class="fullcol question-panel six clearfix">
+    <div class="leftcol clearfix">
+     <h3><span class="number">6</span>您曾經定期服用高血壓藥物嗎？</h3>
+     <ul id="option-group-7" class="option-group">
+      <li class="progress-message">請選擇一個答案</li>
+      <li class="survey-option">
+       <label class="container">否        <input id="question_6_1" type="radio" name="pressure" value="No" data-score="0">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      <li class="survey-option">
+       <label class="container">是        <input id="question_6_2" type="radio" name="pressure" value="Yes" data-score="2">
+        <span class="checkmark"></span>
+       </label>
+      </li> 
+     </ul>
+     <span class="valwrap">Value: <span class="pressureval"></span></span>                    
+    </div>
+    <div class="rightcol">
+     <img src="../blipire/wp-content/themes/risk-assessment/_/img/blood_pressure_graphic.svg" alt="Blood pressure" title="Blood pressure" />
+    </div>
+    <div id="quiznav-7" class="quiz-nav">
+     <a class="button prev">前一頁</a>
+     <span>問題  6 (共 8個問題）</span>
+     <a class="button next">下一頁</a>
+    </div>    
+   </div>
+   
+   <!-- Question 7 panel -->
+   <div id="question-8" class="fullcol question-panel seven clearfix">
+    <div class="leftcol clearfix">
+     <h3><span class="number">7</span>您曾經被發現有高血糖嗎？<span class="subhead">(例如，在健康檢查中、在疾病期間、在懷孕期間)</span></h3>
+     <ul id="option-group-8" class="option-group">
+      <li class="progress-message">請選擇一個答案</li>
+      <li class="survey-option">
+       <label class="container">否        <input id="question_7_1" type="radio" name="glucose" value="No" data-score="0">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      <li class="survey-option">
+       <label class="container">是        <input id="question_7_2" type="radio" name="glucose" value="Yes" data-score="5">
+        <span class="checkmark"></span>
+       </label>
+      </li>     
+     </ul>
+     <span class="valwrap">Value: <span class="glucoseval"></span></span>                    
+    </div>
+    <div class="rightcol">
+     <img src="../blipire/wp-content/themes/risk-assessment/_/img/blood_glucose_graphic.svg" alt="Blood glucose" title="Blood glucose" />
+    </div>
+    <div id="quiznav-8" class="quiz-nav">
+     <a class="button prev">前一頁</a>
+     <span>問題  7 (共 8個問題）</span>
+     <a class="button next">下一頁</a>
+    </div>    
+   </div>
+   
+   <!-- Question 8 panel -->
+   <div id="question-9" class="fullcol question-panel eight clearfix">
+    <div class="leftcol clearfix">
+     <h3><span class="number">8</span>您或您的直系親屬，或其他親屬<br /> 是否被診斷患有糖尿病？<span class="subhead">(1型或2型)</span></h3>
+     <ul id="option-group-8" class="option-group">
+      <li class="progress-message">請選擇一個答案</li>
+      <li class="survey-option">
+       <label class="container">否        <input id="question_8_1" type="radio" name="family" value="No" data-score="0">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      <li class="survey-option">
+       <label class="container">是：祖父母、阿姨、姑姑、叔叔、伯伯、舅舅、或表(堂)兄弟姊妹        <input id="question_8_2" type="radio" name="family" value="Yes: grandparent, aunt, uncle or first cousin" data-score="3">
+        <span class="checkmark"></span>
+       </label>
+      </li>
+      <li class="survey-option">
+       <label class="container">是：父母、兄弟、姊妹、或自己的孩子        <input id="question_8_3" type="radio" name="family" value="Yes: parent, brother, sister or own child" data-score="5">
+        <span class="checkmark"></span>
+       </label>
+      </li>                 
+     </ul>
+     <span class="valwrap">Value: <span class="familyval"></span></span>                   
+    </div>
+    <div class="rightcol">
+     <img src="../blipire/wp-content/themes/risk-assessment/_/img/family_graphic.svg" alt="Activity" title="Activity" />
+    </div>     
+    <div id="quiznav-9" class="quiz-nav">
+     <a class="button prev">前一頁</a>
+     <span>問題  8 (共 8個問題）</span>
+     <a id="submit-button" class="button next submit" onclick="ga('send', 'event', 'Test2prevent', 'Online diabetes risk assessment', 'Submit');">繳交</a>
+    </div>     
+   </div>
+   
+   <!-- Results panel -->
+   <div id="question-10" class="fullcol question-panel results-panel blue clearfix">
+    <div class="leftcol clearfix">
+     <!-- Result Low -->
+     <div class="my-result result-low active">
+     <h3 class="result-heading"><span class="live-score">0</span> - 低</h3>
+      <h4>估計每100人中有1人會罹患疾病</h4>
+      <p>您無法改變自己的年齡或遺傳傾向，然而，容易導致患2型糖尿病的其他因素（如超重、腹部肥胖、久坐不動的生活方式、飲食習慣和吸煙），都取決於您。您選擇的生活方式可以預防2型糖尿病，或至少將發病延後至年紀較高的時候。</p>
+<p>如果您的家人患有糖尿病，您應該注意不要隨時間流逝而增加體重。腰圍的增長尤其會增加患2型糖尿病的風險，而定期適度的身體活動會降低風險。您還應該注意飲食：每天注意多攝取含豐富纖維的穀物產品和蔬菜。從您的飲食中省略過多的硬脂肪，而選擇柔軟的植物脂肪。</p>
+      <!--<p><a href="#"><strong>Learn more about type 2 diabetes prevention</strong></a></p>-->
+     </div>
+     <!-- Result Elevated -->
+     <div class="my-result result-elevated">
+     <h3 class="result-heading"><span class="live-score">0</span> - 稍高</h3>
+      <h4>估計每25人中有1人會罹患疾病</h4>
+      <p>您無法改變自己的年齡或遺傳傾向，然而，容易導致患2型糖尿病的其他因素（如超重、腹部肥胖、久坐不動的生活方式、飲食習慣和吸煙），都取決於您。您選擇的生活方式可以預防2型糖尿病，或至少將發病延後至年紀較高的時候。</p>
+<p>如果您的家人患有糖尿病，您應該注意不要隨時間流逝而增加體重。腰圍的增長尤其會增加患2型糖尿病的風險，而定期適度的身體活動會降低風險。您還應該注意飲食：每天注意多攝取含豐富纖維的穀物產品和蔬菜。從您的飲食中省略過多的硬脂肪，而選擇柔軟的植物脂肪。</p>
+      <!--<p><a href="#"><strong>Learn more about type 2 diabetes prevention</strong></a></p>-->
+     </div>
+     <!-- Result Moderate -->
+     <div class="my-result result-moderate">
+     <h3 class="result-heading"><span class="live-score">0</span> - 中</h3>
+      <h4>估計每6人中有1人會罹患疾病</h4>
+      <p>2型糖尿病的早期階段很少有任何症狀。建議您認真考慮自己的身體活動和飲食習慣，注意您的體重，以預防患糖尿病。請與公共衛生護士或您自己的醫生聯繫，以獲得進一步的指導和檢驗。</p>
+<p>您無法改變自己的年齡或遺傳傾向，然而，容易導致患2型糖尿病的其他因素（如超重、腹部肥胖、久坐不動的生活方式、飲食習慣和吸煙），都取決於您。您選擇的生活方式可以預防2型糖尿病，或至少將發病延後至年紀較高的時候。</p>
+      <!--<p><a href="#"><strong>Learn more about type 2 diabetes prevention</strong></a></p>-->
+     </div>
+     <!-- Result High -->
+     <div class="my-result result-high">
+     <h3 class="result-heading"><span class="live-score">0</span> - 高</h3>
+      <h4>估計每3人中有1人會罹患疾病</h4>
+      <p>您應該測量血糖（禁食值和在一劑葡萄糖或一餐之後的值），以確定您是否患有糖尿病但尚無症狀。</p>
+<p>2型糖尿病的早期階段很少有任何症狀。建議您認真考慮自己的身體活動和飲食習慣，注意您的體重，以預防患糖尿病。請與公共衛生護士或您自己的醫生聯繫，以獲得進一步的指導和檢驗。</p>
+      <!--<p><a href="#"><strong>Learn more about type 2 diabetes prevention</strong></a></p>-->
+     </div>
+     <!-- Result Very high -->
+     <div class="my-result result-very-high">
+     <h3 class="result-heading"><span class="live-score">0</span> - 很高</h3>
+      <h4>估計每2人中有1人會罹患疾病</h4>
+      <p>您應該測量血糖（禁食數值及在一劑葡萄糖或一餐之後的數值），以確定您是否患有糖尿病但尚無症狀。</p>
+<p>2型糖尿病的早期階段很少有任何症狀。建議您認真考慮自己的身體活動和飲食習慣，注意您的體重，以預防患糖尿病。請與公共衛生護士或您自己的醫生聯繫，以獲得進一步的指導和檢驗。</p>
+      <!--<p><a href="#"><strong>Learn more about type 2 diabetes prevention</strong></a></p>-->
+     </div>
+     <div class="results-nav">
+      <div class="leftcol">
+       <a class="button" href="https://worlddiabetesday.org/about-wdd/wdd-2018-19/prevent" target="_blank" rel="noopener noreferrer">了解更多</a><br />
+       <a class="button" href="index.html">重新開始</a><br />
+       <a class="button" href="javascript:window.print()">列印結果</a>
+      </div>
+      <div class="rightcol">
+       <h5>分享測試</h5>
+       <!-- Go to www.addthis.com/dashboard to customize your tools <div class="addthis_inline_share_toolbox"></div> -->
+       <div class="addthis_toolbox" addthis:url="https://www.idf.org/type-2-diabetes-risk-assessment/ct/ " addthis:title="Test2Prevent- Find out your risk of type 2 #diabetes with our short and simple online tool " addthis:description="Test2Prevent- Find out your risk of type 2 #diabetes with our short and simple online tool " addthis:media="../blipire/wp-content/themes/risk-assessment/_/img/quiz_results.svg">
+        <div class="custom_images">
+         <a class="addthis_button_facebook"><img src="../blipire/wp-content/themes/risk-assessment/_/img/icon_facebook.png" width="15" height="26" border="0" alt="Share to Facebook"></a>
+         <a class="addthis_button_twitter"><img src="../blipire/wp-content/themes/risk-assessment/_/img/icon_twitter.png" width="27" height="26" border="0" alt="Share to Twitter"></a>
+         <a class="addthis_button_linkedin"><img src="../blipire/wp-content/themes/risk-assessment/_/img/icon_linkedin.png" width="23" height="26" border="0" alt="Share to LinkedIn"></a>
+         <a class="addthis_button_more"><img src="../blipire/wp-content/themes/risk-assessment/_/img/icon_share.png" width="23" height="26" border="0" alt="Share"></a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="rightcol">
+       <img src ='../blipire/wp-content/uploads/2019/08/quiz_results_ct.png' alt='' title='quiz_results_ct' />    </div>    
+   </div>
+   
+  <!--<div class="share-selector">
+   <div class="addthis_toolbox">
+    <div class="custom_images">
+     <a class="addthis_button_more"><img src="/_/img/icon_share.png" alt="Share"></a>
+     <a class="addthis_button_facebook"><img src="/_/img/icon_facebook.png" border="0" alt="Share to Facebook"></a>
+     <a class="addthis_button_twitter"><img src="/_/img/icon_twitter.png" border="0" alt="Share to Twitter"></a>
+     <a class="addthis_button_linkedin"><img src="/_/img/icon_linkedin.png" border="0" alt="Share to LinkedIn"></a>
+    </div>
+   </div>   
+  </div>--> 
+  
+ </div>
+</div>
+
+
+<script>
+// remap jQuery to $
+(function ($) {
+
+	/* trigger when page is ready */
+	$(document).ready(function (){
+        
+        // Clear input values on page refresh
+        $('input[type=radio]').attr('checked',false);
+        //$('.calc-field').value('');
+        
+        // Set score variables
+        var ageVal = 0;
+        var bmiVal = 0;
+        var waistVal = 0;
+        var activityVal = 0;
+        var dietVal = 0;
+        var pressureVal = 0;
+        var glucoseVal = 0;
+        var familyVal = 0;
+        var liveScore = 0;
+        
+        // Set scores
+        $("input[type=radio][name=age]").change(function(){
+            ageVal = $(this).data('score');
+            $(".ageval").html(ageVal);
+        });
+        $("input[type=radio][name=bmi]").change(function(){
+            bmiVal = $(this).data('score');
+            $(".bmival").html(bmiVal);
+        });
+        $("input[type=radio][name=waist]").change(function(){
+            waistVal = $(this).data('score');
+            $(".waistval").html(waistVal);
+        });
+        $("input[type=radio][name=activity]").change(function(){
+            activityVal = $(this).data('score');
+            $(".activityval").html(activityVal);
+        });
+        $("input[type=radio][name=diet]").change(function(){
+            dietVal = $(this).data('score');
+            $(".dietval").html(dietVal);
+        });
+        $("input[type=radio][name=pressure]").change(function(){
+            pressureVal = $(this).data('score');
+            $(".pressureval").html(pressureVal);
+        });
+        $("input[type=radio][name=glucose]").change(function(){
+            glucoseVal = $(this).data('score');
+            $(".glucoseval").html(glucoseVal);
+        });
+        $("input[type=radio][name=family]").change(function(){
+            familyVal = $(this).data('score');
+            $(".familyval").html(familyVal);
+        });
+        // Calculate total
+        $(".survey-option input[type=radio]").change(function(){
+            liveScore = (ageVal+bmiVal+waistVal+activityVal+dietVal+pressureVal+glucoseVal+familyVal);
+            $(".live-score").html(liveScore);
+        });
+        
+        $(".start-button").click(function(){
+         $(".quiz-wrapper").removeClass("blue");
+         $(".language-selector").removeClass("active");
+         $(".share-selector").addClass("active");
+        });
+        $(".first-prev, .submit").click(function(){
+         $(".quiz-wrapper").addClass("blue");
+        });
+        $(".first-prev").click(function(){
+         $(".share-selector").removeClass("active");
+         $(".language-selector").addClass("active");
+        });        
+        
+        $( "#submit-button" ).click(function() {
+         $.ajax({
+          type:"POST",
+          url: 'https://www.idf.org/type-2-diabetes-risk-assessment/blipire/wp-admin/admin-ajax.php',
+          data: {
+           'action':'update_counters',
+           'score_val':liveScore,
+           'post_id' : 7
+          }
+         });
+         $(".share-selector").removeClass("active");         
+         $(".my-result").removeClass("active");
+         if(liveScore < 7){
+          $(".result-low").addClass("active");
+         }else if((liveScore >= 7) && (liveScore <= 11)){
+          $(".result-elevated").addClass("active");
+         }else if((liveScore >= 12) && (liveScore <= 14)){
+          $(".result-moderate").addClass("active");
+         }else if((liveScore >= 15) && (liveScore <= 20)){
+          $(".result-high").addClass("active");
+         }else if(liveScore > 20){
+          $(".result-very-high").addClass("active");
+         }else{}
+        });        
+        
+        $(".question-panel").each(function(){
+            var qid = parseInt(this.id.replace("question-", ""), 10);
+            var currentPanel = $(this);
+            var nextNav = $("#quiznav-" + qid + " .next");
+            var prevNav = $("#quiznav-" + qid + " .prev");
+            var prevPanel = $("#question-" + (qid-1));
+            var nextPanel = $("#question-" + (qid+1));
+            
+            function panelSuccess(){	
+                $(currentPanel).removeClass("active");
+                $(currentPanel).hide();
+                $('.quiz-wrapper').removeClass("incomplete");
+                $(nextPanel).show();
+                $(nextPanel).addClass("active");
+            }         
+            
+            $(nextNav).click(function(){
+                if(qid == 1){
+                    panelSuccess();
+                }else if((qid == 2) && ($("input[name=age]:checked").length > 0)){
+                    panelSuccess();                 
+                }else if((qid == 3) && ($("input[name=bmi]:checked").length > 0)){
+                    panelSuccess();                 
+                }else if((qid == 4) && ($("input[name=waist]:checked").length > 0)){
+                    panelSuccess();                 
+                }else if((qid == 5) && ($("input[name=activity]:checked").length > 0)){
+                    panelSuccess();                 
+                }else if((qid == 6) && ($("input[name=diet]:checked").length > 0)){
+                    panelSuccess();                 
+                }else if((qid == 7) && ($("input[name=pressure]:checked").length > 0)){
+                    panelSuccess();                 
+                }else if((qid == 8) && ($("input[name=glucose]:checked").length > 0)){
+                    panelSuccess();                 
+                }else if((qid == 9) && ($("input[name=family]:checked").length > 0)){
+                    panelSuccess();                 
+                }else{
+                    $('.quiz-wrapper').addClass("incomplete");
+                }
+            });
+            $(prevNav).click(function(){
+                $(currentPanel).removeClass("active");
+                $(currentPanel).hide();
+                $('.quiz-wrapper').removeClass("incomplete");
+                $(prevPanel).show();
+                $(prevPanel).addClass("active"); 
+            });            
+        });
+        
+        //BMI calculator function
+        $(".calc-field").keyup(function() {
+        	if ( $('#height').val().length > 0 && $('#weight').val().length > 0) {
+        		var heightVal = $("#height").val();
+        		var heightMetres = (heightVal / 100);
+        		var heightSquared = (heightMetres * heightMetres);
+        		var weightVal = $("#weight").val();
+        		var bmiVal = (weightVal / heightSquared);
+        		var bmiValshort = bmiVal.toFixed(2);
+        		$(".bmi-result").html(bmiValshort+"kg/m2");
+        		if(bmiValshort < 25){
+        			$(".select-result").html(" 低於 25 公斤/平方公尺");
+        		}else if(bmiValshort > 25 && bmiValshort < 30){
+        			$(".select-result").html(" 25-30 公斤/平方公尺");
+        		}else{
+        			$(".select-result").html(" 高於 30 公斤/平方公尺");
+        		}
+        		$(".result-wrap").fadeIn(500);
+        	} else {
+        		$(".result-wrap").fadeOut(500);
+        	}
+        });        
+               
+	});
+
+}(window.jQuery || window.$));
+</script>
+
+		<footer id="footer" class="source-org vcard copyright" role="contentinfo">
+			<div class="fullcol footer-wrapper clearfix">
+				<div class="midcol footer-main clearfix">
+					<div class="fullcol footer-upper clearfix">
+						<div class="leftcol clearfix">
+							<h5>免責聲明</h5>
+							<small>IDF 線上2型糖尿病風險評估不是診斷工具，它是為目前未被診斷患有糖尿病的人所設計，旨在強調一個人在未來10年內患2型糖尿病的風險。評估結果不是醫學建議。如果您有風險或擔心患有糖尿病，我們建議您諮詢醫療保健專業人士以獲得更多資訊。
+</small>
+						</div>
+						<div class="midcol clearfix">
+							<h5>感謝</h5>
+							<small>Lindström J, Tuomilehto J. 糖尿病風險評分：預測2型糖尿病風險的實用工具。糖尿病護理 2003年; 26: 725-731。
+</small>
+						</div>
+						<div class="rightcol clearfix">
+							<small>IDF 線上風險評估是獲得以下協助而制定的：</small>
+							<img src="../blipire/wp-content/themes/risk-assessment/_/img/support_logos_alt.png" alt="Support logos" title="Support logos" />
+						</div>						
+						<!--<small>&copy;</small>-->
+					</div>					
+					<div class="fullcol footer-lower clearfix">
+						<div class="quartercol clearfix">
+							<h5>實用連結</h5>
+							<ul>
+								<li><a href='https://www.worlddiabetesday.org/' target='_blank' rel='noopener noreferrer'>世界糖尿病日</a></li><li><a href='https://www.idf.org/' target='_blank' rel='noopener noreferrer'>International Diabetes Federation</a></li><li><a href='https://www.diabetesatlas.org/' target='_blank' rel='noopener noreferrer'>IDF Diabetes Atlas</a></li>							</ul>
+						</div>
+						<div class="quartercol clearfix">
+							<h5>聯繫</h5>
+							<p>166 Chaussee de La Hulpe<br />B-1170 Brussels, Belgium</p>
+<p>電話: +32-2-538 55 11<br />
+傳真: +32-2-538 51 14</p>
+<p><a href="mailto:wdd@idf.org">wdd@idf.org</a></p>
+						</div>
+						<div class="quartercol clearfix">
+							<h5>與 IDF 連結</h5>
+							<ul class="social-list">
+								<li><a href="https://www.facebook.com/internationaldiabetesfederation" target="_blank" rel="noopener noreferrer"><img src="../blipire/wp-content/themes/risk-assessment/_/img/icon_facebook.png" alt="Facebook" Title="Facebook" /></a></li>
+								<li><a href="https://twitter.com/IntDiabetesFed" target="_blank" rel="noopener noreferrer"><img src="../blipire/wp-content/themes/risk-assessment/_/img/icon_twitter.png" alt="Twitter" Title="Twitter" /></a></li>
+								<li><a href="https://www.flickr.com/photos/idf" target="_blank" rel="noopener noreferrer"><img src="../blipire/wp-content/themes/risk-assessment/_/img/icon_flickr.png" alt="Flickr" Title="Flickr" /></a></li>
+								<li><a href="https://www.youtube.com/user/IntDiabetesFed" target="_blank" rel="noopener noreferrer"><img src="../blipire/wp-content/themes/risk-assessment/_/img/icon_youtube.png" alt="Youtube" Title="Youtube" /></a></li>
+								<li><a href="https://www.linkedin.com/company/international-diabetes-federation/" target="_blank" rel="noopener noreferrer"><img src="../blipire/wp-content/themes/risk-assessment/_/img/icon_linkedin.png" alt="LinkedIn" Title="LinkedIn" /></a></li>
+							</ul>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<script type='text/javascript' src='../blipire/wp-includes/js/wp-embed.min9d3a.js?ver=5.6.5' id='wp-embed-js'></script>
+
+
+<!-- jQuery is called via the WordPress-friendly way via functions.php -->
+
+<!-- this is where we put our custom functions -->
+<script src="../blipire/wp-content/themes/risk-assessment/_/js/functions.out.js"></script>
+
+<!-- Google analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-972814-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" crossorigin="anonymous" src="../../../s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d03b930677d6c1a"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"92bccc73c9","applicationID":"33800654","transactionName":"bl1RMUtXCERVUhJYX1cXcgZNXwlZG0ATWEoUSFICXA==","queueTime":0,"applicationTime":158,"atts":"QhpSRwNNG0o=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+
+<!-- Mirrored from www.idf.org/type-2-diabetes-risk-assessment/ct/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Nov 2021 10:05:20 GMT -->
+</html>

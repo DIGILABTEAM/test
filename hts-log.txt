@@ -1,0 +1,39 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 09 Nov 2021 15:34:32 at https://www.idf.org/type-2-diabetes-risk-assessment/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.idf.org/type-2-diabetes-risk-assessment/ -O1 "C:\My Web Sites\diabetes" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:34:55	Error: 	"Method Not Allowed" (405) at link https://www.idf.org/type-2-diabetes-risk-assessment/blipire/xmlrpc.php (from https://www.idf.org/type-2-diabetes-risk-assessment/)
+15:35:26	Error: 	"Forbidden" (403) at link https://www.idf.org/type-2-diabetes-risk-assessment/blipire/wp-content/themes/risk-assessment/_/fonts/gen-basic-webfont.eot (from https://www.idf.org/type-2-diabetes-risk-assessment/blipire/wp-content/themes/risk-assessment/style.css)
+15:35:26	Error: 	"Forbidden" (403) at link https://www.idf.org/type-2-diabetes-risk-assessment/blipire/wp-content/themes/risk-assessment/_/fonts/gen-basic-webfont.eot? (from https://www.idf.org/type-2-diabetes-risk-assessment/blipire/wp-content/themes/risk-assessment/style.css)
+15:35:26	Error: 	"Forbidden" (403) at link https://www.idf.org/type-2-diabetes-risk-assessment/blipire/wp-content/themes/risk-assessment/_/fonts/gen-basic-webfont.woff (from https://www.idf.org/type-2-diabetes-risk-assessment/blipire/wp-content/themes/risk-assessment/style.css)
+15:35:26	Error: 	"Forbidden" (403) at link https://www.idf.org/type-2-diabetes-risk-assessment/blipire/wp-content/themes/risk-assessment/_/fonts/gen-basic-webfont.ttf (from https://www.idf.org/type-2-diabetes-risk-assessment/blipire/wp-content/themes/risk-assessment/style.css)
+15:35:26	Error: 	"Forbidden" (403) at link https://www.idf.org/type-2-diabetes-risk-assessment/blipire/wp-content/themes/risk-assessment/_/fonts/gen-basic-webfont.svg (from https://www.idf.org/type-2-diabetes-risk-assessment/blipire/wp-content/themes/risk-assessment/style.css)
+15:35:26	Warning: 	Moved Permanently for https://www.idf.org/type-2-diabetes-risk-assessment/?p=270
+15:35:26	Warning: 	File has moved from https://www.idf.org/type-2-diabetes-risk-assessment/?p=270 to https://www.idf.org/type-2-diabetes-risk-assessment/de/
+15:35:26	Warning: 	Moved Permanently for https://www.idf.org/type-2-diabetes-risk-assessment/?p=272
+15:35:26	Warning: 	File has moved from https://www.idf.org/type-2-diabetes-risk-assessment/?p=272 to https://www.idf.org/type-2-diabetes-risk-assessment/po/
+15:35:26	Warning: 	Moved Permanently for https://www.idf.org/type-2-diabetes-risk-assessment/?p=306
+15:35:26	Warning: 	File has moved from https://www.idf.org/type-2-diabetes-risk-assessment/?p=306 to https://www.idf.org/type-2-diabetes-risk-assessment/ko/
+15:35:26	Warning: 	Moved Permanently for https://www.idf.org/type-2-diabetes-risk-assessment/?p=173
+15:35:26	Warning: 	File has moved from https://www.idf.org/type-2-diabetes-risk-assessment/?p=173 to https://www.idf.org/type-2-diabetes-risk-assessment/es/
+15:35:26	Warning: 	Moved Permanently for https://www.idf.org/type-2-diabetes-risk-assessment/?p=254
+15:35:26	Warning: 	File has moved from https://www.idf.org/type-2-diabetes-risk-assessment/?p=254 to https://www.idf.org/type-2-diabetes-risk-assessment/su/
+15:35:26	Warning: 	Moved Permanently for https://www.idf.org/type-2-diabetes-risk-assessment/?p=314
+15:35:26	Warning: 	File has moved from https://www.idf.org/type-2-diabetes-risk-assessment/?p=314 to https://www.idf.org/type-2-diabetes-risk-assessment/cs/
+15:35:26	Warning: 	Moved Permanently for https://www.idf.org/type-2-diabetes-risk-assessment/?p=176
+15:35:26	Warning: 	File has moved from https://www.idf.org/type-2-diabetes-risk-assessment/?p=176 to https://www.idf.org/type-2-diabetes-risk-assessment/fr/
+15:35:26	Warning: 	Moved Permanently for https://www.idf.org/type-2-diabetes-risk-assessment/?p=274
+15:35:26	Warning: 	File has moved from https://www.idf.org/type-2-diabetes-risk-assessment/?p=274 to https://www.idf.org/type-2-diabetes-risk-assessment/sv/
+15:35:26	Warning: 	Moved Permanently for https://www.idf.org/type-2-diabetes-risk-assessment/?p=324
+15:35:26	Warning: 	File has moved from https://www.idf.org/type-2-diabetes-risk-assessment/?p=324 to https://www.idf.org/type-2-diabetes-risk-assessment/ct/
+15:35:26	Warning: 	Moved Permanently for https://www.idf.org/type-2-diabetes-risk-assessment/?p=238
+15:35:26	Warning: 	File has moved from https://www.idf.org/type-2-diabetes-risk-assessment/?p=238 to https://www.idf.org/type-2-diabetes-risk-assessment/it/
+15:35:26	Warning: 	Moved Permanently for https://www.idf.org/type-2-diabetes-risk-assessment/?p=292
+15:35:26	Warning: 	File has moved from https://www.idf.org/type-2-diabetes-risk-assessment/?p=292 to https://www.idf.org/type-2-diabetes-risk-assessment/jp/
+
+HTTrack Website Copier/3.49-2 mirror complete in 54 seconds : 159 links scanned, 141 files written (7311942 bytes overall) [6730903 bytes received at 124646 bytes/sec], 1022269 bytes transferred using HTTP compression in 13 files, ratio 28%, 13.1 requests per connection
+(6 errors, 22 warnings, 0 messages)
