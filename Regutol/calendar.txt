@@ -1,0 +1,5 @@
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import calendar 
+>>> cal = calendar.month(2021,12) #year, month
+>>> print(cal)
+   December 2021
